@@ -1,0 +1,139 @@
+*{
+ 
+    padding: 0px;
+    margin: 0px;
+     color: white;  
+
+}
+body{
+    background-color: black;
+}
+.navbar{
+    display: flex;
+    /* border: 2px solid red; */
+
+  justify-content: center;
+    align-items: center;
+
+}
+
+.icon{
+    display: flex;
+    color: white; 
+     float: right;
+    /* border: 2px solid red; */
+    height: 30px;
+    width: 30px;
+    margin-left: 80%;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+
+    
+}
+.icon h3{
+    margin: 15px;
+}
+.logo img {
+    height: 80px;
+    width: 80px;
+    /* border: 2px solid white; */
+   display: flex;
+   float:left;
+}
+/* font style */
+.oswald {
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-style: normal;
+  }
+
+ .flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+ } 
+.left {
+    /* border: 2px solid white; */
+    height: 30rem;
+    width: 15rem;
+    margin-left: 20%;
+    
+  }
+  
+  .right {
+    /* border: 2px solid white; */
+    height: 60%;
+    width: 30%;
+    margin-right: 20%;
+  }
+  .btnprogram {
+    border: none;
+    cursor: pointer;
+    background-color: red;
+    width: 100%;
+    
+    padding: 16px;
+    outline: none;
+   
+    margin-bottom: 200px;
+    align-items: center;
+    border-radius: 10px;
+    margin-top: 150px;
+  }
+  .image {                                                  
+     height: 550px;
+
+  }
+
+  .form {
+    /* border: 2px solid yellow; */
+    /* width: 30%;
+    margin-left: 39%; */
+    justify-content: center;
+    text-align: center;
+    padding: 67px;
+    margin: 10px;
+    font-size: ;
+    
+
+    
+
+    
+ 
+
+  }
+  input  {
+    background-color: transparent;
+    color: orange;
+    border-radius: 2px solid orange;
+    margin: 15px;
+    font-size: large;
+    align-items: center;
+    margin-left: 20px;
+
+
+  }
+  .submit {
+    background-color: orange;
+    margin-left: 5%;
+    padding: 5px;
+    text-align: center;
+  }
+  .formhead {
+    margin-left: 15%;
+  }
+  .left h3 {
+    padding-top: 50px;
+  }
+  .main{
+    margin-left: 110px;
+  }
+  .footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: orangered;
+  }
